@@ -29,7 +29,7 @@ avec le body :
 ```
 cela vous donnera un token copier le ,sur PostMan aller dans la rubric header crée une nouvelle entête dont (keys=Authorization) et value (Bearer (le token  copier))
 vous êtes desormé identifier grâce au JWT. 
----
+
 ## Request 
 ### login check
 #### POST /api/auth
