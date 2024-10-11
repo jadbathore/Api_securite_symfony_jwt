@@ -69,7 +69,7 @@ class CompanyController extends AbstractController
             'user'=>$company->getRoleUser(),
             ];
         }
-        $result["result"] = $companies ?? "No result found" ;
+        $result["result"] = $companies;
 
         return new JsonResponse($result);
     }
